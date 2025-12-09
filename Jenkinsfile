@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKERHUB_CREDENTIALS = 'dockerhub_credentials' 
+        DOCKERHUB_CREDENTIALS = 'dockerhub-cred' 
         APP_SERVER = '13.233.23.81'
     }
 
