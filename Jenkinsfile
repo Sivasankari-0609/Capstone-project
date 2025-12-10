@@ -45,7 +45,7 @@ pipeline {
 
         stage('Deploy to app-ec2') {
             steps {
-                sshagent(credentials: ['app-ssh']) {
+                sshagent(credentials: ['docker-ec2-key']) {
                     sh """
                         ssh -o StrictHostKeyChecking=no ubuntu@${APP_SERVER} '
                             docker stop app || true
