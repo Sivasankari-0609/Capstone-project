@@ -7,7 +7,7 @@ pipeline {
 
     environment {
         DOCKERHUB_CREDENTIALS = 'dockerhub-cred'
-        APP_SERVER = '13.233.23.81'
+        APP_SERVER = '52.66.132.202'
     }
 
     stages {
