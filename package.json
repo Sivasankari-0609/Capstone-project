@@ -2,7 +2,7 @@
   "name": "capstone_nodefile",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "capstonenode.js",
   "scripts": {
     "start": "node app.js",
     "test": "echo \"Skipping tests\""
